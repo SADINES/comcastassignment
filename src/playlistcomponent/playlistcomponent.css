@@ -1,0 +1,84 @@
+.grid{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+        grid-gap:5px;
+        padding-left: 16px;
+        margin-top: 10px;
+    }
+    
+    .grid > div{
+    
+        font-size: 12px;
+        padding: 0.5em;
+        color:black;
+        background-color: lightgray;
+        text-align: center;
+    }
+    
+    span > i{
+    
+        cursor: pointer;
+    }
+    
+    .name{
+    
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        widows: 250px;
+    }
+    
+    .name:hover{
+        overflow: visible;
+        white-space: normal;
+        height: auto;
+        cursor: alias;
+    }
+    
+    .wrapper{
+        position: relative;
+        height: 330px;
+        border-radius: 10px;
+    
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        row-gap : 5px;
+        height: 100%;
+    }
+    
+    .innerDiv{
+    
+        display: flex;
+        flex-direction: column;
+        row-gap:3px;
+    }
+    
+    div > i{
+        cursor: pointer;
+    }
+    
+    div > span > i {
+        padding: 10px;
+    }
+    
+    .imgcontainer{
+        height: 250px;
+        width: 100%;
+    }
+    
+    .card:hover{
+    
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    .container{
+        border: 1px solid;
+    }

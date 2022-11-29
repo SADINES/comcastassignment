@@ -1,0 +1,35 @@
+.logincontainer{
+
+    top:50%;
+    position: absolute;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.buttoncontainer{
+
+    color: white;
+    background-color: black;
+    width:200px;
+    height: 100px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.iframecontainer{
+    border: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    widows: 100%;
+}
+
+.bckImageContainer{
+    height: 0;padding-bottom: calc(73.00%);position: relative;widows: 100%;
+}
+
