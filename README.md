@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Application Funtionality  Over View 
 
 ### Uses Oauth for login and logout mechanisum with SPA (implicit flow) 
-### Uses redux for state management & thunk middleware for api request 
+### Uses redux for state management , thunk middleware for api request  & react router for routing 
 ### Uses css grid and flex box to make nav bar & card components responsive to various media's
 ### Once you Login list of albums can be seen 
 ### In the search box we can type in the album name to filter the albums which uses debounce feature to perform more elegant searches
