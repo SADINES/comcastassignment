@@ -39,7 +39,7 @@ function Music({ musiclist }) {
             objectToAdd = [...objectToAdd, { id: index, musicObj: musicEntryObj }];
 
             return (<div className="wrapper">
-                <div onClick={(e) => { openNewTabSongsForAlbum(e) }} className="card" href={musicEntryObj["im:image"][2].label}>
+                <div onClick={(e) => { openNewTabSongsForAlbum(e) }} className="card" href={musicEntryObj["id"].label}>
                     <img src={musicEntryObj["im:image"][2].label} />
                     <div className="innerDiv">
                         <span><b>Album Name:</b> {musicEntryObj["im:artist"].label}
