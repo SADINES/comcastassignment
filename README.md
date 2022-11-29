@@ -5,11 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Application Funtionality  Over View 
 
 ### Uses Oauth for login and logout mechanisum with SPA (implicit flow) 
+### Uses redux for state management & thunk middleware for api request 
 ### Uses css grid and flex box to make nav bar & card components responsive to various media's
 ### Once you Login list of albums can be seen 
 ### In the search box we can type in the album name to filter the albums which uses debounce feature to perform more elegant searches
 ### We can also add our favourite playlist by click on the bookmark button in the individual card and we can see the same stored in our my play list tab
 ###  Onclicking the image of the album it will open the corresponding album from itunes link
+### Uses react toastify for toast notification on adding liked albums
 
 ## Available Scripts
 
